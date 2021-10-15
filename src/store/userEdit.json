@@ -1,52 +1,52 @@
 {
   "generalInfo":{
-    "razon_social":"Sociedad Anónima (S.A.)",
+    "razon_social":"",
     "Nombre_comercial":" INDITEX",
-    "Nacionalidad" : "Europea",
+    "Nacionalidad" : "",
     "Fecha_de_constitución": "2012-04-23",
     "RFC":"ANC680524P76", 
     "Régimen_Fiscal":"General", 
     "Industria":"Textil", 
     "Comprobante_de_domicilio":"C:/fakepath/cfe.pdf",
     "Número_telefónico":"",
-    "Dirección_de_correo_electrónico":"example@important.com.mx"
+    "Dirección_de_correo_electrónico":""
   },
   
   "Domicilio":{
-    "Calle_o_Avenida":"S Spring St",
+    "Calle_o_Avenida":"",
     "Número_exterior":243,
-    "Número_interior":"12B",
-    "Código_Postal": 90011,
-    "Colonia_o_Urbanización":"Polanco",
-    "Ciudad_o_Población":"CDMX",
+    "Número_interior":"",
+    "Código_Postal": "",
+    "Colonia_o_Urbanización":"",
+    "Ciudad_o_Población":"",
     "Entidad_Federativa_o_Estado":"CDMX",
     "País":"México"
   },
   "Cuenta_bancaria":{
-    "CLABE":"002 XX XXXXXXXXXX X",
+    "CLABE":"",
     "Banco":"BBVA"
   },
   "Representante_legal":{
     "Nombre":"Karim Joel Esqueda Nava", 
     "Género":"Masculino",
-    "Fecha_de_nacimiento":"2012-04-23",
-    "Entidad_Federativa_de_nacimiento":"Querétaro",
+    "Fecha_de_nacimiento":"",
+    "Entidad_Federativa_de_nacimiento":"",
     "País_de_nacimiento":"México",
-    "Nacionalidad":"Mexicana",
+    "Nacionalidad":"",
     "CURP":"KDFR5643HYNNLL45",
-    "RFC":"DFER45321FE3",
+    "RFC":"",
     "Estado_civil":"Casado",
-    "Correo_electrónico":"algo@gmail.com",
-    "Teléfono":"+52(###) ### ## ##",
-    "Documento_de_identificación":"INE"
+    "Correo_electrónico":"",
+    "Teléfono":"",
+    "Documento_de_identificación":""
   },
   "DomicilioRepLeg":{
-    "Calle_o_Avenida":"Madison st",
-    "Número_exterior":23,
-    "Número_interior":"1B",
-    "Código_Postal": 90311,
-    "Colonia_o_Urbanización":"Polanco",
-    "Ciudad_o_Población":"CDMX",
+    "Calle_o_Avenida":"",
+    "Número_exterior":"",
+    "Número_interior":"",
+    "Código_Postal": "",
+    "Colonia_o_Urbanización":"",
+    "Ciudad_o_Población":"",
     "Entidad_Federativa_o_Estado":"CDMX",
     "País":"México"
   }

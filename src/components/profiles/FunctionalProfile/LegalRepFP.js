@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import validator from 'validator'
 import Swal from 'sweetalert2'
 import { useForm } from '../../../hooks/useForm'
-import { RfcValidator } from '../../../helpers/validators'
+import { CURPValidator, RfcValidator } from '../../../helpers/validators'
 import { LegalRepAddress } from './LegalRepAddress'
 import { updateGralInfoLegalRep } from '../../../actions/user'
 
@@ -24,6 +24,7 @@ export const LegalRepFP = () => {
     Entidad_Federativa_de_nacimiento: legalRep.Entidad_Federativa_de_nacimiento,
     País_de_nacimiento: legalRep.País_de_nacimiento,
     Nacionalidad: legalRep.Nacionalidad,
+    CURP: legalRep.CURP,
     RFC: legalRep.RFC,
     Estado_civil: legalRep.Estado_civil,
     Correo_electrónico: legalRep.Correo_electrónico,
@@ -37,6 +38,7 @@ export const LegalRepFP = () => {
     Entidad_Federativa_de_nacimiento,
     País_de_nacimiento,
     Nacionalidad,
+    CURP,
     RFC,
     Estado_civil,
     Correo_electrónico,
@@ -57,12 +59,16 @@ export const LegalRepFP = () => {
 
   const handleBlur = () =>{
     const RFCValidate = RfcValidator(RFC)
+    const CURPValidate = CURPValidator(CURP)
 
     if (!validator.isDate(Fecha_de_nacimiento)) {
       setMessaggeError('invalid date format')
       return setErrors(true)
     }else if (!RFCValidate) {
       setMessaggeError('invalid RFC')
+      return setErrors(true)
+    }else if (!CURPValidate) {
+      setMessaggeError('invalid CURP')
       return setErrors(true)
     }else if (!validator.isEmail(Correo_electrónico)) {
       setMessaggeError('invalid email')
@@ -104,6 +110,18 @@ export const LegalRepFP = () => {
           <option value="Femenino"> Femenino </option>
           <option value="No binario">No binario</option>
         </select>
+        </div>
+        <div className="form-control">CURP: 
+          <input 
+          type="datetime"
+          name= "CURP"
+          placeholder='CURP'
+          autoComplete="false"
+          required={true}
+          value={ CURP }
+          onBlur={handleBlur}
+          onChange={ handleInputChange }
+          />
         </div>
         </div>
 
