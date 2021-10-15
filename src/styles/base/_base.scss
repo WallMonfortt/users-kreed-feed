@@ -14,6 +14,10 @@ html, body{
   display: flex;
 }
 
+.flex-column{
+  flex-direction: column;
+}
+
 .mt-1{
   margin-top: 5px;
 }
@@ -45,4 +49,66 @@ html, body{
 .content{
   height: 100vh;
   width: 100vw;
+}
+
+.form-control{
+  margin: 5px;
+  width: 20vw;
+  
+  input{
+    margin: 5px;
+    position: relative;
+    max-width: 160px;
+  }
+  select{
+    margin: 5px;
+    max-width: 160px;
+    position: relative;
+  }
+}
+
+.form-func{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.vertCenter{
+  align-self: center;
+}
+
+.btn{
+   
+	padding: 10px 30px;
+  font-size: 14px;
+  cursor: pointer;
+  
+	border-radius: 7px;
+  
+	background-color:$secondary;
+	color:black;
+  
+	transition: all 0.3s;
+  
+	&:hover {
+    
+		color:white;
+		background-color: darken($color: $primary, $amount: 0);
+		animation: animatedBackground 5s linear infinite alternate;
+	}
+}
+
+@keyframes animatedBackground {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 100% 0;
+	}
+}
+
+.alerts{
+  background-color: red;
+  color: white;
+  padding: 5px;
+  text-align: center;
 }

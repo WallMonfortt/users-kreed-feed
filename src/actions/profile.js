@@ -36,5 +36,17 @@ export const selectFieldP3 = (field) =>{
   }
 };
 
+export const selectFieldFP = (field) =>{
+  return(dispatch) =>{
+    dispatch({
+      type: types.fPSelected,
+      payload:{
+        fPSelected: field
+      }
+    })
+  }
+};
+
+
 
 

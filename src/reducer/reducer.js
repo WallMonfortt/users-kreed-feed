@@ -6,7 +6,8 @@ const initialState = {
   profileNumb:null,
   user: user,
   p1Selected:"General",
-  p3Selected:"General"
+  p3Selected:"General",
+  fPSelected:"General"
 }
 
 export const Reducer = (state = initialState, action)=>{
@@ -29,6 +30,12 @@ export const Reducer = (state = initialState, action)=>{
         return{
           ...state,
           p3Selected: action.payload.p3Selected
+        }
+
+      case types.fPSelected:
+        return{
+          ...state,
+          fPSelected: action.payload.fPSelected
         }
 
     default:

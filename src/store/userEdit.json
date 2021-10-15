@@ -1,0 +1,55 @@
+{
+  "generalInfo":{
+    "razon_social":"Sociedad Anónima (S.A.)",
+    "Nombre_comercial":" INDITEX",
+    "Nacionalidad" : "Europea",
+    "Fecha_de_constitución": "2012-04-23",
+    "RFC":"ANC680524P76", 
+    "Régimen_Fiscal":"General", 
+    "Industria":"Textil", 
+    "Comprobante_de_domicilio":"C:/fakepath/cfe.pdf",
+    "Número_telefónico":"",
+    "Dirección_de_correo_electrónico":"example@important.com.mx"
+  },
+  
+  "Domicilio":{
+    "Calle_o_Avenida":"S Spring St",
+    "Número_exterior":243,
+    "Número_interior":"12B",
+    "Código_Postal": 90011,
+    "Colonia_o_Urbanización":"Polanco",
+    "Ciudad_o_Población":"CDMX",
+    "Entidad_Federativa_o_Estado":"CDMX",
+    "País":"México"
+  },
+  "Cuenta_bancaria":{
+    "CLABE":"002 XX XXXXXXXXXX X",
+    "Banco":"BBVA"
+  },
+  "Representante_legal":{
+    "Nombre":"Karim Joel Esqueda Nava", 
+    "Género":"Masculino",
+    "Fecha_de_nacimiento":"2012-04-23",
+    "Entidad_Federativa_de_nacimiento":"Querétaro",
+    "País_de_nacimiento":"México",
+    "Nacionalidad":"Mexicana",
+    "CURP":"KDFR5643HYNNLL45",
+    "RFC":"DFER45321FE3",
+    "Estado_civil":"Casado",
+    "Correo_electrónico":"algo@gmail.com",
+    "Teléfono":"+52(###) ### ## ##",
+    "Documento_de_identificación":"INE"
+  },
+  "DomicilioRepLeg":{
+    "Calle_o_Avenida":"Madison st",
+    "Número_exterior":23,
+    "Número_interior":"1B",
+    "Código_Postal": 90311,
+    "Colonia_o_Urbanización":"Polanco",
+    "Ciudad_o_Población":"CDMX",
+    "Entidad_Federativa_o_Estado":"CDMX",
+    "País":"México"
+  }
+  
+
+}

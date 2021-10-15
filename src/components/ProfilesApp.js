@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { NoSelected } from './NoSelected'
+import { FuncProfile } from './profiles/FuncProfile'
 import { ProfileOne } from './profiles/ProfileOne'
 import { ProfileThree } from './profiles/ProfileThree'
 import { ProfileTwo } from './profiles/ProfileTwo'
@@ -18,6 +19,8 @@ export const ProfilesApp = () => {
       {(profileNumb === 1) && <ProfileOne />}
       {(profileNumb === 2) && <ProfileTwo />}
       {(profileNumb === 3) && <ProfileThree />}
+      {(profileNumb === 4) && <FuncProfile />}
+      
     </div>
   )
 }

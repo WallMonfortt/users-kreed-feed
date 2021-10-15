@@ -41,6 +41,13 @@ export const Sidebar = () => {
       >
         <h4>Profile #3</h4>
       </button>
+
+      <button
+        className="sidebar-btn"
+        onClick={()=> handleSelect(4)}
+      >
+        <h4>Func Profile</h4>
+      </button>
     </div>
   )
 }
